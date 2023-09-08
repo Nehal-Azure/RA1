@@ -1,0 +1,4 @@
+20:55:24.400 [main]INFO  LogUtil - This is for info only
+20:55:24.402 [main]DEBUG LogUtil - This is debug message
+20:55:24.402 [main]ERROR LogUtil - This is error message
+20:55:24.402 [main]WARN  LogUtil - This is warnig message
