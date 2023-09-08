@@ -10,5 +10,6 @@
       <class name="api.testcases.UserTests"/>
       
     </classes>
+    <!-- test hello -->
   </test> <!-- Test -->
 </suite> <!-- Suite -->
