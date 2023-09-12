@@ -2,6 +2,7 @@ package api.testcases;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.AssertJUnit;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -131,6 +132,11 @@ public class UserTests {
 		AssertJUnit.assertEquals(response.getStatusCode(),200);
 		logger.info("delete user test executed succesfully");
 		
+	}
+	@Parameters("Browser")
+	@Test(priority= 7)
+	public void testPara(String browser) {
+		System.out.println("This is para:  "+browser);
 	}
 
 }
