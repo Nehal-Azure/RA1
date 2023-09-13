@@ -7,7 +7,7 @@ pipeline{
     stage('Build 1'){
       steps{
         echo 'Build 1 is starting'
-        bat "mvn clean test"
+        bat "mvn clean test -DBrowser=$Browser"
       }
 
       post {
